@@ -40,8 +40,8 @@ export class App extends React.Component {
         </Menu>
 
         <Switch>
-          <Route path="/login" componet={Main} />
-          <Route path="/" exact componet={Login} />
+          <Route path="/" exact componet={Main} />
+          <Route path="/login" componet={Login} />
         </Switch>
       </>
     );
